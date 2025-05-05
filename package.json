@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon ./bin/www",
+    "build": "rm -rf node_modules && npm install && next build"
+
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
