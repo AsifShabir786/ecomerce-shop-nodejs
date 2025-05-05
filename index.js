@@ -9,17 +9,17 @@ var connectToDB = require("./db/conn.js");
 const cors=require('cors')
 var indexRouter = require("./routes/index");
 // var adminRouter = require("./routes/admin");
-var authRouter = require("./routes/auth");
-var checkoutRoute = require("./routes/checkout");
-var registerRouter = require("./routes/Register");
-var usersRouter = require("./routes/users");
+var authRouter = require("./routes/auth.js");
+var checkoutRoute = require("./routes/checkout.js");
+var registerRouter = require("./routes/Register.js");
+var usersRouter = require("./routes/users.js");
 
-const productRoute=require('./routes/product')
+const productRoute=require('./routes/product.js')
 // const cartRoute=require('./routes/cart')
-const serviceRoute=require('./routes/service')
-const serviceFormRoute=require('./routes/serviceForm')
-var resetpasswordRouter = require("./routes/reset-password");
-var userRouter = require("./routes/user");
+const serviceRoute=require('./routes/service.js')
+const serviceFormRoute=require('./routes/serviceForm.js')
+var resetpasswordRouter = require("./routes/reset-password.js");
+var userRouter = require("./routes/user.js");
 const fileUpload=require('express-fileupload')
 var app = express();
 
