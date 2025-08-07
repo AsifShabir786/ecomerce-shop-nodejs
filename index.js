@@ -25,7 +25,7 @@ var app = express();
 
 
 const corsOptions = {
-  origin: 'http://localhost:3001', // No trailing slash
+  origin: 'https://saloonshop.vercel.app', // No trailing slash
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'], // Add other headers as needed
   credentials: true,
